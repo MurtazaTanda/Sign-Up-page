@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    /* min-height: 100vh; */
+    border: 2px solid black;
+}
+.form {
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    text-align: left;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.stat {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+}
+span {
+    color: blue;
+}
+.signup {
+    text-align: center;
+}
+.yname {
+    height: 33px;
+    width: 250px;
+}
+
+#register {
+    padding: 7px;
+    margin: 20px;
+    width: 100px;
+    margin-left: 60px;
+    background-color: lightgrey;
+    border: 1px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#register:hover {
+    background-color: cornflowerblue;
+}
